@@ -8,8 +8,14 @@ From: twongjirad/dllee-deps-yakkety
   export DLLEE_UNIFIED_BASEDIR=/usr/local/share/dllee_unified
   git submodule init
   git submodule update
-  source configure.sh
-  source build.sh
+  chmod u+x configure.sh
+  chmod u+x build.sh
+  ./configure.sh
+  ./build.sh
+  mkdir /cluster/home
+  mkdir /cluster/kappa
+  mkdir /cluster/shared
+  mkdir /opt/shared
 
 %environment
 
