@@ -12,10 +12,10 @@ From: twongjirad/dllee-deps-yakkety
   chmod u+x build.sh
   ./configure.sh
   ./build.sh
-  mkdir /cluster/home
-  mkdir /cluster/kappa
-  mkdir /cluster/shared
-  mkdir /opt/shared
+  mkdir -p /cluster/home
+  mkdir -p /cluster/kappa
+  mkdir -p /cluster/shared
+  mkdir -p /opt/shared
 
 %environment
 
