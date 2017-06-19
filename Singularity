@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: twongjirad/dllee-deps-yakkety
+From: twongjirad/docker-dllee-deps
 
 %post
   cd /usr/local/share/
