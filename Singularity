@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: twongjirad/docker-dllee-deps
+From: twongjirad/docker-dllee-deps:ubuntu16.04opencv3.2wemacs
 
 %post
   cd /usr/local/share/
@@ -16,6 +16,7 @@ From: twongjirad/docker-dllee-deps
   mkdir -p /cluster/kappa
   mkdir -p /cluster/shared
   mkdir -p /opt/shared
+  cp /tmp/uboone_photon_library*.root ${DLLEE_UNIFIED_BASEDIR}/larlite/UserDev/SelectionTool/OpT0Finder/PhotonLibrary/dat/  
 
 
 %environment
