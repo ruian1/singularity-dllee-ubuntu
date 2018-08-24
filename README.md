@@ -4,4 +4,4 @@ Repository containing Singularity file to build DL LEE analysis code inside a si
 
 Note: that the code requires you to copy the photon library data to
 
-`/`
+`/tmp`
